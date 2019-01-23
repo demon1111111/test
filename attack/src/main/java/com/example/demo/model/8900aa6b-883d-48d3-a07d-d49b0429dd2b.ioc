@@ -13,7 +13,7 @@ This malware may also add itself to the Authorized Applications list for the Win
     <link rel="category">Backdoor</link>
   </links>
   <definition>
-    <Indicator operator="OR" id="1c200d34-351f-47fa-bf6f-1c596d2779a7">
+    <Indicator operator="OR" id="1c201d34-351f-47fa-bf6f-1c596d2779a7">
       <IndicatorItem id="267cf04a-b1ea-4756-90ca-442de0f74be9" condition="is">
         <Context document="FileItem" search="FileItem/Md5sum" type="mir" />
         <Content type="md5">995442f722cc037885335340fc297ea0</Content>
